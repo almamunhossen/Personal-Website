@@ -29,10 +29,7 @@ ul li a{
     font-family: 'Oswald', sans-serif;
     font-size: 4.3vw;
     text-transform: uppercase;
-}
-.hader-textcolor{
-    color: tomato;
-
+    color:rgb(47, 80, 112);
 }
 .section-text{
     font-family: 'Oswald', sans-serif;
@@ -40,7 +37,7 @@ ul li a{
     text-transform: uppercase;
 }
 .tex-hiliter{
-    color: blue;
+    color:tomato;
     font-family: 'Oswald', sans-serif;
 }
 a{
@@ -76,4 +73,8 @@ img{
 p{
     font-weight: 410;
     line-height: 1.5em;
+}
+.section-text .tex-hiliter{
+    margin-top: 30%;
+    text-align: center;
 }
