@@ -123,13 +123,22 @@ section{
 .cantact-text{
     text-align: center;
     color: #ffffff;
-    font-size: 25px;
     padding: 2%;
     margin-top: 25px;
 }
-.footer-back-color{
-    background-color: rgb(39, 73, 107);
+.cantact-text h5{
+    color: #141414;
+    font-size: 20px;
+    font-family:'Oswald', sans-serif;
 }
-.fa{
-    color: rgb(209, 203, 203);
+h4{
+    font-weight: 600;
+    font-family:'Oswald', sans-serif;
+    font-size: 27px;
+    text-transform: uppercase;
+    color:  rgb(39, 73, 107);
+}
+.cantact-text img{
+    width: 3%;
+    padding:10px;
 }
