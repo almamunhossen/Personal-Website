@@ -25,11 +25,16 @@ ul li a{
     font-weight: 600;
     color:#222222;  
 }
+ul li a:hover{
+    border-bottom:tomato solid 2px;
+    padding-bottom: 8px;
+
+}
 .hader-text{
     font-family: 'Oswald', sans-serif;
     font-size: 4.3vw;
     text-transform: uppercase;
-    color:rgb(47, 80, 112);
+    color:rgb(39, 73, 107);
 }
 .section-text{
     font-family: 'Oswald', sans-serif;
@@ -40,7 +45,7 @@ ul li a{
     color:tomato;
     font-family: 'Oswald', sans-serif;
 }
-a{
+button a{
     text-decoration: none;
     color: #ffffff;
 }
@@ -64,17 +69,67 @@ button:hover{
 .box-1{
     width: 40%;
     float: left;
-    padding-left: 6%;
+    padding-left: 5%;
     margin: 2%;
 }
-img{
+.box-1 img{
     width: 85%;
 }
 p{
     font-weight: 410;
     line-height: 1.5em;
 }
-.section-text .tex-hiliter{
-    margin-top: 30%;
+.section-text .tex-hiliter h3{
+    margin-top: 20px;
     text-align: center;
+}
+.box-3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.5vw;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 20px;
+}
+section{
+    height: 500px;
+}
+.button_center{
+    align-items: center;
+}
+.box-2{
+    width: 15%;
+    float: left;
+    padding: 4%;
+    margin: 1%;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 3px 5px 20px #d4d0d0;
+}
+.box-2 img{
+    width: 100%;
+}
+.section-back-color .box-3 .box-2{
+    background-color: rgb(207, 0, 0);
+}
+.back_imags{
+    height: 15%;
+    background-size: contain;
+    background-repeat:no-repeat;
+    margin-top: 10%;
+    background-position: center;
+    background-image: url("images/b_images.png");
+}
+.cantact-text{
+    text-align: center;
+    color: #ffffff;
+    font-size: 25px;
+    padding: 2%;
+    margin-top: 25px;
+}
+.footer-back-color{
+    background-color: rgb(39, 73, 107);
+}
+.fa{
+    color: rgb(209, 203, 203);
 }
